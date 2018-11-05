@@ -20,7 +20,7 @@ public class EjercicioUF4_01 {
 		for (int i = 0; i < 20; i++) {
 			System.out.print("Traduce " + matrizIngles[i][0]+": ");
 			respuesta = lector.nextLine();
-			if (respuesta.trim().equalsIgnoreCase(matrizIngles[i][1])) {
+			if (respuesta.equals(matrizIngles[i][1])) {
 				System.out.println("Bien!");
 				aciertos++;
 			} else {
